@@ -27,13 +27,19 @@ const reflection2 = () => {
       Initially, I did not force him to learn the framework very quickly. I let him learn in his own pace as I belief everyone has their own ways of learning. However, as someone who recently finished the course, I expected more from him. It was hard for me to accept the fact that after four weeks, my co-worker was still not understanding the most basic and common techniques of the framework which made me to do most of the project. 
       </Text>
       <Text marginTop='15px' width='80%' fontSize='xl'>
-      Then, lockdown happened due to the outbreak, and we were forced to work from home. This really set back the rate of development process. It was harder to teach my co-worker how to fix the error he had over a video call. His lack of ability to understand what I was saying and the framework we were using really made me frustrated. 
+      Then, lockdown happened due to the outbreak, and we were forced to work from home. This really set back the rate of development process. It was harder to teach my co-worker how to fix the error he had over a video call. His lack of ability to understand what I was saying and the framework we were using really made me frustrated. In office environment, poor communication is usually the outcome of the language barrier <b>(Chron 2020)</b>.       
       </Text>
       <Text marginTop='15px' width='80%' fontSize='xl'>
       When I realised, he was not going to be much helpful with the project, I asked another team member to assist with the project. The new co-worker is fourth year software engineering student, same as me. We were in the same class before. Luckily, the new co-worker managed to get familiar with the framework in a short period of time. He was able to contribute to the project better than expected. 
       </Text>
       <Text marginTop='15px' width='80%' fontSize='xl'>
       What I learned from this experience is everyone is fighting their own battles. I was really annoyed to be working with my previous co-worker as I had to teach him everything like teaching how to walk to a baby. But after witnessing how another co-worker learned the framework so quickly, I realised there will be people who are better than you or not as good as you at certain tasks. I am confidence if my new co-worker and I had to learn the same framework at the same thing, he will definitely outrun me. The best thing we can do when someone has difficulties learning something in a workplace is to be patient and show some compassion and professionalism. 
+      </Text>
+      <Text fontWeight='bold' marginTop='15px' width='80%' fontSize='xl'>
+      Reference
+      </Text>
+      <Text marginTop='15px' width='80%' fontSize='xl'>
+      Chron 2020, <i>Cultural & Language Barriers in the Workforce</i>, viewed 7 Sept 2022, &lt;https://smallbusiness.chron.com/cultural-language-barriers-workforce-11928.html&gt;
       </Text>
 
   </Box> 
