@@ -1,21 +1,22 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Contain from '../components/Contain'
+import useWindowSize from '../utils/useWindowSize'
 
 const reflection2 = () => {
+  const size = useWindowSize()
   return (
     <Box
-    height='100vh'
+    height={size.width < 1467 ? "auto" : "100vh"}
     border='1px solid black'
     sx={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       paddingY: '30px',
-      overflowY: 'scroll'
     }}
   >
-      <Text fontSize='2xl'>Reflection 2: Professional Practice within Intercultural and Global Contexts</Text>
+      <Text fontSize='2xl' padding='10px 20px'>Reflection 2: Professional Practice within Intercultural and Global Contexts</Text>
       <Text marginTop='15px' width='80%' fontSize='xl'>
       During my internship I got to know people from different counties and was expected to work together as a team. There were six of us in my team and each of them have different technical background even though we are to work as a software engineering group. I was assigned to work on developing the user interface of the product with another teammate who had recently graduated. However, my colleague is not a native English speaker, so the language barrier was to be expected.
       </Text>

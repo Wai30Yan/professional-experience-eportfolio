@@ -1,10 +1,12 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Stack, Text } from "@chakra-ui/react";
-import React from "react";
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box } from "@chakra-ui/react";
+import React, { useState, useEffect } from "react";
 
 const coverletter = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { width } = useWindowSize()
   return (
     <Box
-      height="100vh"
+      height={width < 1049 ? "auto" : "100vh"}
       border="1px solid black"
       sx={{
         display: "flex",
@@ -38,7 +40,7 @@ const coverletter = () => {
           engineering students. The project was simple, a frontend development process for managing x-ray images. 
           As someone who have certain knowledge about developing user interface for web application, I provided pros and cons of popular frontend frameworks such as React,
            Vue or Next to the client and the biomedical team in the simplest way possible so that a non-technical person can understand. Moreover, 
-          I also explained different types of UI libraries that can be used for styling the web interface. 
+          I also explained different types of UI libraries that can be used for styling the web interface. Because of that, not only my client but also my team learned the basic knowledge of frameworks and library that can be beneficial for the project.
           </AccordionPanel>
         </AccordionItem>
 
@@ -52,7 +54,7 @@ const coverletter = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} fontSize={18}>
-          After explaining pros and cons of different frontend frameworks and UI libraries for styling, the client insisted that we chose that tech-stack. Biomedical students also left this task to us, the software team. Therefore, we had an internal discussion regarding how to approach the situation. As the only one who had a certain level of frontend development knowledge in the team, I suggested to use React framework as it is easy to learn for both the software and biomedical teams. I also recommended using Material UI for styling as it comes with UI components such as Form, Button, Navigation Bar that the teams can use out of the box which helped with increasing the development speed.   
+          After explaining pros and cons of different frontend frameworks and UI libraries for styling, the client insisted that we chose that tech-stack. Biomedical students also left this task to us, the software team. Therefore, we had an internal discussion regarding how to approach the situation. As the only one who had a certain level of frontend development knowledge in the team, I suggested to use React framework as it is easy to learn for both the software and biomedical teams. I also recommended using Material UI for styling as it comes with UI components such as Form, Button, Navigation Bar that the teams can use out of the box which helped with increasing the development speed. Because of that, I was able to assist my team with learning Material UI which boosted the development speed.    
           </AccordionPanel>
         </AccordionItem>
 
@@ -66,7 +68,7 @@ const coverletter = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} fontSize={18}>
-          The very next thing I did, after software team had finished choosing the software development tools, was to give crash course on how to use those tools to the biomedical team. First, we taught them how to install and use VScode, Git, GitHub, and command line tool. I spent most of my time at the office around the biomedical team so that I can actively communicate with them and help them out whenever they are stuck. Moreover, even though, the project owner is not the direct client of the software team but of the biomedical team, I joined their weekly meetings to explain what we were doing and the weekly progress. During those meetings, I actively listen and ask the client’s opinions and if there were any changes, they wanted us to make with the user interface.  
+          The very next thing I did, after software team had finished choosing the software development tools, was to give crash course on how to use those tools to the biomedical team. First, we taught them how to install and use VScode, Git, GitHub, and command line tool. I spent most of my time at the office around the biomedical team so that I can actively communicate with them and help them out whenever they are stuck. Moreover, even though, the project owner is not the direct client of the software team but of the biomedical team, I joined their weekly meetings to explain what we were doing and the weekly progress. During those meetings, I actively listen and ask the client’s opinions and if there were any changes, they wanted us to make with the user interface. Because of that, the biomedical students were excited to learn the chosen frontend framework which was good for the project.  
           </AccordionPanel>
         </AccordionItem>
 
@@ -80,7 +82,7 @@ const coverletter = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} fontSize={18}>
-          The hardest part of the work experience arrived when it was time to implement the feature for displaying x-ray images on the web application the team had developed. It would not work if we built the application to display a normal PNG or JPEG image as the x-ray images used a unique format call DICOM. Fortunately, I discovered a package for displaying or managing DICOM x-ray images that we can use with React, the chosen framework. However, the package was originally written as a JavaScript library and its developer were just starting to migrate to React system. Therefore, there were not much information or documentation available about the package. After thorough research which took 4-5 days with cross referencing from an overwhelming number of websites, I had managed to render that UI of that package on our React app. After that one of my teammates was able to manipulate the package into the client requirement.   
+          The hardest part of the work experience arrived when it was time to implement the feature for displaying x-ray images on the web application the team had developed. It would not work if we built the application to display a normal PNG or JPEG image as the x-ray images used a unique format call DICOM. Fortunately, I discovered a package for displaying or managing DICOM x-ray images that we can use with React, the chosen framework. However, the package was originally written as a JavaScript library and its developer were just starting to migrate to React system. Therefore, there were not much information or documentation available about the package. After thorough research which took 4-5 days with cross referencing from an overwhelming number of websites, I had managed to render that UI of that package on our React app. After that one of my teammates was able to manipulate the package into the client requirement. Because of that the team was able to deliver the expected product at the end of the internship.    
           </AccordionPanel>
         </AccordionItem>
 
@@ -94,7 +96,7 @@ const coverletter = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} fontSize={18}>
-          Eight weeks after the beginning of the internship, a covid outbreak happened and we were forced to work from home. The outbreak really took a hit to our performance as a team because we were not able to communicate face-to-face. However, I always kept contact with the biomedical team to keep track of their progress and provide help if they need someone from software team for assistance. In addition to that, I also report the team leader regarding what I was doing such as fixing the code structure written by biomedical team to remove errors and warnings. 
+          Eight weeks after the beginning of the internship, a covid outbreak happened and we were forced to work from home. The outbreak really took a hit to our performance as a team because we were not able to communicate face-to-face. However, I always kept contact with the biomedical team to keep track of their progress and provide help if they need someone from software team for assistance. In addition to that, I also report the team leader regarding what I was doing such as fixing the code structure written by biomedical team to remove errors and warnings. Because of that the final product had less errors and warnings.
           </AccordionPanel>
         </AccordionItem>
 
@@ -108,7 +110,7 @@ const coverletter = () => {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} fontSize={18}>
-          I did not take the leader role of the software team during the internship. However, I guided them to the right direction when it comes to choosing the framework. Initially, I wanted to choose the framework, “Next”, as it is a better version of “React”. But the team needed to learn basic of “React” to use “Next”. Naturally, the team was not willing to go with “Next”. And I understood their feelings and accepted to use “React”. After that, I initiated the project and implemented routing system for page navigation so that the teams did not have to spend time learning routing system. With that, the team members only needed to focus on individual page that they were assigned to developed. And while they were doing that, I also helped them with positioning the user interface components such as table of patients’ information, sign in and registration forms.
+          I did not take the leader role of the software team during the internship. However, I guided them to the right direction when it comes to choosing the framework. Initially, I wanted to choose the framework, “Next”, as it is a better version of “React”. But the team needed to learn basic of “React” to use “Next”. Naturally, the team was not willing to go with “Next”. And I understood their feelings and accepted to use “React”. After that, I initiated the project and implemented routing system for page navigation so that the teams did not have to spend time learning routing system. With that, the team members only needed to focus on individual page that they were assigned to developed. And while they were doing that, I also helped them with positioning the user interface components such as table of patients’ information, sign in and registration forms. Because of that the team members were not shy to ask questions whenever they had roadblocks.
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
@@ -159,5 +161,29 @@ const coverletter = () => {
     </Box>
   );
 };
+
+function useWindowSize() {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+  useEffect(() => {
+    // Handler to call on window resize
+    function handleResize() {
+      // Set window width/height to state
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []); // Empty array ensures that effect is only run on mount
+  return windowSize;
+}
 
 export default coverletter;

@@ -1,22 +1,23 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Contain from '../components/Contain'
+import useWindowSize from '../utils/useWindowSize'
 
 const reflection1 = () => {
+  const size = useWindowSize()
   return (
     <Box
-      height='100vh'
+      height={size.width < 1467 ? "auto" : "100vh"}
       border='1px solid black'
       sx={{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         paddingY: '30px',
-        overflowY: 'scroll'
       }}
     >
 
-        <Text fontSize='2xl'>Reflection 1: Principles of Sustainability to Create Viable Systems </Text>
+        <Text fontSize='2xl' padding='10px 20px'>Reflection 1: Principles of Sustainability to Create Viable Systems </Text>
         <Text marginTop='15px' width='80%' fontSize='xl'>
         In the last four weeks of my internship, my team’s task was to implement the X-ray image renderer for the React web application. However, x-ray images do not use normal photo format such as PNG or JPEG but DICOM format instead. None of us had dealt with this format before. The team was to find a method to integrate a feature that let the React application handle the x-ray images.
         </Text>
