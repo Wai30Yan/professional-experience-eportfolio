@@ -8,6 +8,7 @@ import {
   VisuallyHidden,
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { AiOutlineMail, AiOutlinePhone, AiOutlineLinkedin, AiFillGithub } from 'react-icons/ai'
 
 const SocialButton = ({ children, label, href }) => {
   return (
@@ -50,14 +51,11 @@ export default function Footer() {
       >
         <Text>© 2022 Wai Yan. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"#"}>
-            <FaTwitter />
+          <SocialButton label={"Linkedin"} href={"https://www.linkedin.com/in/wai-yan-951b50221/"}>
+            <AiOutlineLinkedin />
           </SocialButton>
-          <SocialButton label={"YouTube"} href={"#"}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={"Instagram"} href={"#"}>
-            <FaInstagram />
+          <SocialButton label={"Github"} href={"https://github.com/Wai30Yan"}>
+            <AiFillGithub />
           </SocialButton>
         </Stack>
       </Container>

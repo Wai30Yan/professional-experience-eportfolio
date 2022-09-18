@@ -1,4 +1,4 @@
-import { Box, useColorModeValue } from '@chakra-ui/react'
+import { Box, Center, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 
 const Contain = ({ children }) => {
@@ -8,6 +8,9 @@ const Contain = ({ children }) => {
      sx={{
       height: '820px',
       width: '100%',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
      }}
     >
       {children}

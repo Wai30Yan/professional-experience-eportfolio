@@ -4,17 +4,16 @@ import Contain from "../components/Contain";
 
 export default function home() {
   return (
-      <Box
-       height='100vh'
-       border='1px solid black'
-       sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingY: '30px'
-       }}
-      >
-
+   <Box
+      height='100vh'
+      border='1px solid black'
+      sx={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingY: '30px'
+      }}
+    >
         <Stack maxW={920} spacing={3}>
           <Text fontSize='2xl'>About Me</Text>
           <Text fontSize='xl'>
@@ -26,7 +25,7 @@ export default function home() {
           <Text fontSize='xl'>
             As a software engineer, my passion lies in writing code. It is our nature to jump right into coding every time there is a project. However, I retrain myself from doing that as I know planning is just as important as developing stage. I usually spend time on Hackerrank to practice algorithms in different programming languages.     
           </Text>
-        </Stack>
-      </Box>
+        </Stack>   
+    </Box> 
   )
 }
