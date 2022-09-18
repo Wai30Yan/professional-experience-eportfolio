@@ -16,7 +16,7 @@ const reflection2 = () => {
       paddingY: '30px',
     }}
   >
-      <Text fontSize='2xl' padding='10px 20px'>Reflection 2: Professional Practice within Intercultural and Global Contexts</Text>
+      <Text fontSize='2xl' padding='10px 20px'>Professional Practice within Intercultural and Global Contexts</Text>
       <Text marginTop='15px' width='80%' fontSize='xl'>
       During my internship I got to know people from different counties and was expected to work together as a team. There were six of us in my team and each of them have different technical background even though we are to work as a software engineering group. I was assigned to work on developing the user interface of the product with another teammate who had recently graduated. However, my colleague is not a native English speaker, so the language barrier was to be expected.
       </Text>
